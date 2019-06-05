@@ -15,6 +15,7 @@ public class OurController {
     @ResponseBody
     public String hello(){
         System.out.println("hello,github!!!!");
+        System.out.println("dev.....");
         return "hello";
     }
 }
